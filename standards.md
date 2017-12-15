@@ -20,8 +20,8 @@ body {font-size:16px;}
     <h4 class="w3-padding-64"><small><b>OpenSim Resource Development</b></small></h4>
   </div>
   <div class="w3-bar-block">
-    <a href="https://osrd.github.io/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-    <a href="https://osrd.github.io/standards.md" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Standards</a>
+    <a href="index.md" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="standards.md" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Standards</a>
   </div>
 </nav>
 
