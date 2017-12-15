@@ -21,7 +21,6 @@ body {font-size:16px;}
   </div>
   <div class="w3-bar-block">
     <a href="index" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-    <a href="standards" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Standards</a>
   </div>
 </nav>
 
