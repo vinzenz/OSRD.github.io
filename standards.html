@@ -42,20 +42,37 @@ body {font-size:16px;}
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px">
     <h1 class="w3-jumbo"><b>Standards</b></h1>
-    <hr style="width:50px;border:5px solid DodgerBlue" class="w3-round">
+    <hr style="width:500px;border:5px solid DodgerBlue" class="w3-round">
   </div>
   
 On this page we have outlined some basic standards that all submitted resources should follow. These standards may evolve in the future if problems are found or more efficient routines are established.
 <hr>
 <div class="w3-row-padding">
  
-<div class="w3-col m4 w3-center">
-<b>Scripts</b>
-<hr>
+<div class="w3-col m4 w3-padding">
+<h4><b>Scripts</b></h4>
+<hr style="width:190px;border:5px solid DodgerBlue" class="w3-round">
+<li>llSleep should be avoided as it suspends the entire script thread rather than just the script. Use timers instead.</li>
+<li>Single blocks of code cannot exceed 30 seconds of execution time as the default value for the event timeout is 30 seconds.</li>
+<li>States should be avoided and only used if the context does not allow other methods.</li>
+<li>Listeners should be avoided where possible and if absolutely required should only be created temporarily and removed if no longer needed. See <a href="http://wiki.secondlife.com/wiki/LlListenRemove">llListenRemove</a></li>
+<li>Where possible standard LSL functions should be used along with standard LSL events. If necessary OSSL functions may be used, but a disclaimer and information on the required permissions should be included with the script or the readme.</li>
+
+</div>
+
+<div class="w3-col m4 w3-padding">
+<h4><b>Buildings</b></h4>
+<hr style="width:190px;border:5px solid DodgerBlue" class="w3-round">
+<li>All submitted buildings and building parts must be fully licensed for the structure, scripts and any texture applied to it. When in doubt, do not supply textures or scripts and provide reference to original designs or parts.</li>
+<li>Buildings should be a single linkset or come with instructions on how to assemble multiple linksets. Alignment indicators or obvious connections should be described in the readme. Avoid using rezzers.</li>
+<li>Land Impact information along with count of unique textures should be included in the readme.</li>
+<li>Included scripts should be provided as copy along with the structure containing them. Information on which Primitives contain scripts should be included in the readme.</li>
 </div>
 
 
 </div> 
+<hr>
+These standards are subject to change and may be changed at any point.
 </div>
 
 <script>
