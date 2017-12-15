@@ -52,8 +52,10 @@ On this page we have outlined some basic standards that all submitted resources 
 <div class="w3-col m4 w3-padding">
 <h4><b>Scripts</b></h4>
 <hr style="width:190px;border:5px solid DodgerBlue" class="w3-round">
+<li>All scripts must contain or come with a readme outlining specifics to operation such as limitations or caveats to watch out for.</li>
 <li>llSleep should be avoided as it suspends the entire script thread rather than just the script. Use timers instead.</li>
-<li>Single blocks of code cannot exceed 30 seconds of execution time as the default value for the event timeout is 30 seconds.</li>
+<li>Blocks of code should be kept short and should finish executing well before the 30 second event timeout.</li>
+<li>Loops have the capability of running an event into timeout, consider using different methods of looping to avoid the timeout.</li>
 <li>States should be avoided and only used if the context does not allow other methods.</li>
 <li>Listeners should be avoided where possible and if absolutely required should only be created temporarily and removed if no longer needed. See <a href="http://wiki.secondlife.com/wiki/LlListenRemove">llListenRemove</a></li>
 <li>Where possible standard LSL functions should be used along with standard LSL events. If necessary OSSL functions may be used, but a disclaimer and information on the required permissions should be included with the script or the readme.</li>
