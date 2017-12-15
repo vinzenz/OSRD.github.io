@@ -38,7 +38,7 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
+  <div class="w3-container" style="margin-top:80px">
     <h1 class="w3-jumbo"><b>OpenSim Resource Development</b></h1>
     <hr style="width:50px;border:5px solid DodgerBlue" class="w3-round">
   </div>
