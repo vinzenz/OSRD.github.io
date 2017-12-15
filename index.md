@@ -49,22 +49,7 @@ body {font-size:16px;}
     
   </div>
 
-<div class="w3-half">
-<div class="w3-row-padding">
 
-    <div class="w3-col m4 w3-center">
-    The entire library and further information is available directly on<hr>
-    <a class="w3-button w3-blue" href="https://github.com/OpenSimResourceDevelopment" target="_blank">GitHub</a>
-    
-    </div>
-    <div class="w3-col m4 w3-center">
-    Anyone can support the project with resources or through a donation on<hr>
-    <a class="w3-button w3-yellow" href="https://liberapay.com/OpenSimResourceDevelopment/" target="_blank">Liberapay</a>
-    
-    </div>
-    
-</div>
-</div>
 
 </div>
 
