@@ -20,7 +20,7 @@ body {font-size:16px;}
     <h4 class="w3-padding-64"><small><b>OpenSim Resource Development</b></small></h4>
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="index" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
   </div>
 </nav>
 
@@ -37,7 +37,7 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
+  <div class="w3-container" style="margin-top:80px">
     <h1 class="w3-jumbo"><b>OpenSim Resource Development</b></h1>
     <hr style="width:50px;border:5px solid DodgerBlue" class="w3-round">
   </div>
@@ -52,19 +52,20 @@ body {font-size:16px;}
 <div class="w3-half">
 <div class="w3-row-padding">
 
-	<div class="w3-col m4 w3-center">
-	The entire library and further information is available directly on<hr>
-	<a class="w3-button w3-blue" href="https://github.com/OpenSimResourceDevelopment" target="_blank">GitHub</a>
-	
-	</div>
-	<div class="w3-col m4 w3-center">
-	Anyone can support the project with resources or through a donation on<hr>
-	<a class="w3-button w3-yellow" href="https://liberapay.com/OpenSimResourceDevelopment/" target="_blank">Liberapay</a>
-	
-	</div>
-	
+    <div class="w3-col m4 w3-center">
+    The entire library and further information is available directly on<hr>
+    <a class="w3-button w3-blue" href="https://github.com/OpenSimResourceDevelopment" target="_blank">GitHub</a>
+    
+    </div>
+    <div class="w3-col m4 w3-center">
+    Anyone can support the project with resources or through a donation on<hr>
+    <a class="w3-button w3-yellow" href="https://liberapay.com/OpenSimResourceDevelopment/" target="_blank">Liberapay</a>
+    
+    </div>
+    
 </div>
 </div>
+
 </div>
 
 <script>
