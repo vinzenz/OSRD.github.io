@@ -42,30 +42,7 @@ body {font-size:16px;}
     <h1 class="w3-jumbo"><b>OpenSim Resource Development</b></h1>
     <hr style="width:50px;border:5px solid DodgerBlue" class="w3-round">
   </div>
-  
-  <div class="w3-half">
-  <b>Our main aim is to create resources such as buildings, scripts, animations, mesh, tutorials, documentation, specialized patches and tools to further the development and adaption of OpenSim. Everything is provided open-source and for-free*, with licensing that permits non-commercial or educational use of all resources provided.
-  The open-source nature of the projects allows easy peer-review of all resources and professionals as well as amateurs to contribute and work together to improve the resources and their own knowledge of OpenSim. Collaboration is at the heart of the project, along with a desire to solve issues resulting from improperly created resources.
-  <hr>
-    
-  </div>
-
-<div class="w3-half">
-<div class="w3-row-padding">
-
-    <div class="w3-col m4 w3-center">
-    The entire library and further information is available directly on<hr>
-    <a class="w3-button w3-blue" href="https://github.com/OpenSimResourceDevelopment" target="_blank">GitHub</a>
-    
-    </div>
-    <div class="w3-col m4 w3-center">
-    Anyone can support the project with resources or through a donation on<hr>
-    <a class="w3-button w3-yellow" href="https://liberapay.com/OpenSimResourceDevelopment/" target="_blank">Liberapay</a>
-    
-    </div>
-    
-</div>
-</div>
+Standards
 
 </div>
 
