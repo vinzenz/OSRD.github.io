@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <title>OpenSim Resource Development</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +9,7 @@ body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
-<body>
+
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
@@ -73,6 +71,3 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 </script>
-
-</body>
-</html>
